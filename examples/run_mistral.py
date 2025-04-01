@@ -59,12 +59,12 @@ def construct_society(question: str) -> RolePlaying:
         ),
         "video": ModelFactory.create(
             model_platform=ModelPlatformType.MISTRAL,
-            model_type=ModelType.MISTRAL_PIXTRAL_12B,
+            model_type= ModelType.MISTRAL_PIXTRAL_12B,
             model_config_dict={"temperature": 0},
         ),
         "image": ModelFactory.create(
             model_platform=ModelPlatformType.MISTRAL,
-            model_type=ModelType.MISTRAL_PIXTRAL_12B,
+            model_type= ModelType.MISTRAL_PIXTRAL_12B,
             model_config_dict={"temperature": 0},
         ),
         "document": ModelFactory.create(
